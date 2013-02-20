@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10px"
+    android:paddingTop="10px" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/rel2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/ll_itembase"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_item_fundo"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/generoTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="50dp"
+                        android:text="genero"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#FFFFFF"
+                        android:textSize="13dp" >
+                    </TextView>
+
+                    <ImageView
+                        android:id="@+id/alarmBell"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@+id/horaTextView"
+                        android:paddingRight="5px" >
+                    </ImageView>
+
+<!--                     <ImageView -->
+<!--                         android:id="@+id/viewed" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:layout_centerVertical="true" -->
+<!--                         android:layout_toLeftOf="@+id/alarmBell" -->
+<!--                         android:src="@drawable/viewed" -->
+<!--                         android:paddingRight="5px" > -->
+<!--                     </ImageView> -->
+
+<!--                     <ImageView -->
+<!--                         android:id="@+id/tracking" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:layout_centerVertical="true" -->
+<!--                         android:layout_toLeftOf="@+id/viewed" -->
+<!--                         android:src="@drawable/database" -->
+<!--                         android:paddingRight="5px" > -->
+<!--                     </ImageView> -->
+
+<!--                     <ImageView -->
+<!--                         android:id="@+id/wacthlistr" -->
+<!--                         android:layout_width="wrap_content" -->
+<!--                         android:layout_height="wrap_content" -->
+<!--                         android:layout_centerVertical="true" -->
+<!--                         android:layout_toLeftOf="@+id/tracking" -->
+<!--                         android:src="@drawable/watch" -->
+<!--                         android:paddingRight="5px" > -->
+<!--                     </ImageView> -->
+
+                    <TextView
+                        android:id="@+id/horaTextView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:gravity="center_horizontal"
+                        android:paddingRight="5dp"
+                        android:text="hora e tipo"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="#FFFFFF"
+                        android:textSize="13dp" >
+                    </TextView>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/movie_icon" >
+                    </ImageView>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingLeft="5dp" >
+
+                        <TextView
+                            android:id="@+id/titulo_pt_text_view"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="top"
+                            android:ellipsize="marquee"
+                            android:freezesText="true"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:maxLines="1"
+                            android:scrollHorizontally="true"
+                            android:singleLine="true"
+                            android:text="Titulo PT"
+                            android:textColor="#1a87b5"
+                            android:textSize="17dp"
+                            android:textStyle="bold" >
+                        </TextView>
+
+                        <TextView
+                            android:id="@+id/titulo_original_text_view"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="marquee"
+                            android:freezesText="true"
+                            android:gravity="top"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:maxLines="1"
+                            android:scrollHorizontally="true"
+                            android:singleLine="true"
+                            android:text="Titulo Original"
+                            android:textColor="#000000"
+                            android:textSize="15dp">
+
+                        </TextView>
+
+                        <RelativeLayout
+                            android:id="@+id/list_item_progress_relative_layout"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone" >
+
+                            <ProgressBar
+                                android:id="@+id/list_item_movie_progree_bar"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:visibility="visible" />
+
+                            <TextView
+                                android:id="@+id/list_item_percentage_movie"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:focusableInTouchMode="true"
+                                android:textColor="#000000"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ll_itembase"
+                android:src="@drawable/alarm_bell" >
+            </ImageView>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/onAir_IV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/relativeLayout3"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/onair_icon" >
+        </ImageView>
+    </RelativeLayout>
+
+</LinearLayout>

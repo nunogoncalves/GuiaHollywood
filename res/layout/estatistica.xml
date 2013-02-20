@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+     
+    <com.numicago.guiahollywood.pager.SwipeyTabsView
+        android:id="@+id/swipey_tabs"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#3B3B3B" />
+
+    <View
+        android:id="@+id/colorline"
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+        android:layout_below="@+id/swipey_tabs"
+        android:background="#FF91A438" />
+    
+    <View
+        android:id="@+id/blackline"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:layout_below="@+id/colorline"
+        android:background="#FF000000" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/blackline" />
+
+</RelativeLayout>
+
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" -->
+<!--     android:layout_width="match_parent" -->
+<!--     android:layout_height="match_parent" -->
+<!--     android:orientation="vertical" > -->
+
+<!--     <LinearLayout -->
+<!--         android:id="@+id/linearLayout1" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_weight="0" > -->
+
+<!--         <LinearLayout -->
+<!--             android:id="@+id/favorites_ll" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_weight="1" -->
+<!--             android:gravity="center_horizontal" -->
+<!--             android:orientation="vertical" > -->
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/favsIV" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:src="@drawable/heart_big_color" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/textView1" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:text="Favoritos" -->
+<!--                 android:visibility="visible" /> -->
+
+<!--             <LinearLayout -->
+<!--                 android:id="@+id/estatistica_favs_value_ll" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:gravity="center_vertical" -->
+<!--                 android:visibility="visible" > -->
+<!--             </LinearLayout> -->
+
+<!--             <View -->
+<!--                 android:id="@+id/favoritos_blue_view" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="10px" -->
+<!--                 android:background="#0081dc" /> -->
+<!--         </LinearLayout> -->
+
+<!--         <LinearLayout -->
+<!--             android:id="@+id/watchlist_ll" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_weight="1" -->
+<!--             android:gravity="center" -->
+<!--             android:orientation="vertical" > -->
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/watchIV" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:src="@drawable/warning_baw" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/textView2" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:gravity="center_vertical" -->
+<!--                 android:text="Interesses" /> -->
+
+<!--             <LinearLayout -->
+<!--                 android:id="@+id/estatistica_watch_list_value_ll" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:gravity="center_vertical" > -->
+<!--             </LinearLayout> -->
+
+<!--             <View -->
+<!--                 android:id="@+id/watchlist_blue_view" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="10px" -->
+<!--                 android:background="#0081dc" -->
+<!--                 android:visibility="gone" /> -->
+<!--         </LinearLayout> -->
+
+<!--         <LinearLayout -->
+<!--             android:id="@+id/vistos_ll" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_weight="1" -->
+<!--             android:gravity="center" -->
+<!--             android:orientation="vertical" > -->
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/viewIV" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:src="@drawable/seen_baw" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/textView3" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:text="Vistos" /> -->
+
+<!--             <LinearLayout -->
+<!--                 android:id="@+id/estatistica_vistos_value_ll" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:gravity="center_vertical" > -->
+<!--             </LinearLayout> -->
+
+<!--             <View -->
+<!--                 android:id="@+id/vistos_blue_view" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="10px" -->
+<!--                 android:background="#0081dc" -->
+<!--                 android:visibility="gone" /> -->
+<!--         </LinearLayout> -->
+
+<!--         <LinearLayout -->
+<!--             android:id="@+id/ratings_ll" -->
+<!--             android:layout_width="wrap_content" -->
+<!--             android:layout_height="wrap_content" -->
+<!--             android:layout_weight="1" -->
+<!--             android:gravity="center|center_horizontal" -->
+<!--             android:orientation="vertical" > -->
+
+<!--             <ImageView -->
+<!--                 android:id="@+id/ratingIV" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:src="@drawable/star_baw" /> -->
+
+<!--             <TextView -->
+<!--                 android:id="@+id/TextView01" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:text="Votações" /> -->
+
+<!--             <LinearLayout -->
+<!--                 android:id="@+id/estatistica_rating__ll" -->
+<!--                 android:layout_width="wrap_content" -->
+<!--                 android:layout_height="wrap_content" -->
+<!--                 android:gravity="center_vertical" > -->
+
+<!--             </LinearLayout> -->
+
+<!--             <View -->
+<!--                 android:id="@+id/ratings_blue_view" -->
+<!--                 android:layout_width="match_parent" -->
+<!--                 android:layout_height="10px" -->
+<!--                 android:background="#0081dc" -->
+<!--                 android:visibility="gone" /> -->
+
+<!--         </LinearLayout> -->
+
+<!--     </LinearLayout> -->
+
+<!--     <View -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="2px" -->
+<!--         android:background="#0081dc" /> -->
+
+<!--     <ViewFlipper -->
+<!--         android:id="@+id/viewFlipper" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_weight="0" > -->
+
+<!--         <ExpandableListView -->
+<!--             android:id="@+id/favs_list" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:divider="@null" -->
+<!--             android:fadingEdge="vertical" -->
+<!--             android:fastScrollEnabled="true" -->
+<!--             android:scrollbars="vertical" > -->
+<!--         </ExpandableListView> -->
+
+<!--         <ExpandableListView -->
+<!--             android:id="@+id/whatch_view" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:divider="@null" -->
+<!--             android:fadingEdge="vertical" -->
+<!--             android:fastScrollEnabled="true" -->
+<!--             android:scrollbars="vertical" > -->
+<!--         </ExpandableListView> -->
+
+<!--         <ExpandableListView -->
+<!--             android:id="@+id/vistos_view" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:divider="@null" -->
+<!--             android:fadingEdge="vertical" -->
+<!--             android:fastScrollEnabled="true" -->
+<!--             android:scrollbars="vertical" > -->
+<!--         </ExpandableListView> -->
+
+<!--         <ExpandableListView -->
+<!--             android:id="@+id/ratings_view" -->
+<!--             android:layout_width="match_parent" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:divider="@null" -->
+<!--             android:fadingEdge="vertical" -->
+<!--             android:fastScrollEnabled="true" -->
+<!--             android:scrollbars="vertical"  > -->
+<!--         </ExpandableListView> -->
+
+<!--     </ViewFlipper> -->
+
+<!-- </LinearLayout> -->

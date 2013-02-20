@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.numicago.guiahollywood.dateslider.SliderContainer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.numicago.guiahollywood"
+    android:id="@+id/dateSliderContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <com.numicago.guiahollywood.dateslider.ScrollLayout
+        style="@style/Scroller"
+        app:labelerClass="com.numicago.guiahollywood.dateslider.YearLabeler"
+        app:labelerFormat="%tY"
+        app:childWidth="180dp"/>
+    <com.numicago.guiahollywood.dateslider.ScrollLayout
+        style="@style/Scroller"
+        app:labelerClass="com.numicago.guiahollywood.dateslider.MonthLabeler"
+        app:labelerFormat="%tB"
+        app:childWidth="160dp"/>
+    <com.numicago.guiahollywood.dateslider.ScrollLayout
+        style="@style/Scroller"
+        app:labelerClass="com.numicago.guiahollywood.dateslider.DayDateLabeler"
+        app:labelerFormat="%td %ta"
+        app:childWidth="45dp"/>
+    <include layout="@layout/dialogbuttons"/>
+</com.numicago.guiahollywood.dateslider.SliderContainer>

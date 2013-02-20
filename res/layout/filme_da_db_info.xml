@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/background"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<TextView android:layout_width="wrap_content"
+			android:textColor="#1a87b5" android:textStyle="bold"
+			android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/filme_da_db_info_titulo_original_textView"></TextView>
+		<TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceLarge" 
+			android:layout_height="wrap_content" android:id="@+id/filme_da_db_info_titulo_en_textView"></TextView>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/agenda_filme_da_db_filme_textView"></TextView>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/filme_da_db_horario_textView"></TextView>
+
+		<ImageView
+		    android:id="@+id/imagem_filme_da_db"
+		    android:layout_width="320px"
+		    android:layout_height="240px"
+		    android:layout_gravity="center_horizontal"
+		    android:src="@drawable/movie_icon" >
+</ImageView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/filme_da_db_info_descricao_textView" android:textAppearance="?android:attr/textAppearanceLarge"></TextView>
+		</LinearLayout>
+</ScrollView>
+

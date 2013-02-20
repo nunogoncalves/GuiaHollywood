@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App settings -->
+    <string name="app_name">Guia Hollywood</string>
+    <string name="email">goncalves.cm.nuno@gmail.com</string>  
+    <string name="contact_me">Contacto</string>  
+	
+	<!-- Nomes actividades -->	
+    <string name="configurations">Configurações</string>
+    
+	<!-- Esperas-->
+    <string name="hold">Por favor aguarde</string>
+    <string name="loading">A carregar lista de filmes...</string>
+
+	<!-- Escolhas-->
+	<string name="dateSliderTitle">Escolher data</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+	<string name="escolha_opcao">Escolha uma opção</string>
+	<string name="escolher_tema">Escolha um tema</string>
+	<string name="natal">Natal</string>
+    <string name="amor">Amor</string>
+    <string name="vazio">Vazio</string>
+    <string name="epoca_maior_check_box">Época supera escolha</string>
+    <string name="guardar_alteracoes">Guardar alterações</string>
+    <string name="select">Escolher</string>
+    <string name="cancelar">Cancelar</string>
+    
+	<!-- Infos/Notificacoes -->    
+    <string name="realizador">Realizador: </string>
+    <string name="duracao">Duração: </string>
+    <string name="das">Das </string>
+    <string name="as"> às </string>
+    <string name="dateFormat"> EEEE, dd \'de\' MMMM \'de\' "yyyy</string>
+    <string name="cache_apagada">Cache apagada</string>
+    <string name="hoje">Hoje</string>
+    <string name="epoca_superior_escolha">O tema da época sobrepoe-se à minha escolha?</string>
+    
+    <!-- Sair -->
+    <string name="reboot_app_see_efects">Tem de reiniciar a aplicação para ver as alterações de país</string>
+    <string name="certeza_sair">Tem a certeza de que deseja sair da aplicação?</string>
+    <string name="sair">Sair</string>
+
+    <!-- Ligação -->
+    <string name="try_again">Tentar novamente</string>
+    <string name="no_connection">Sem ligação</string>
+    <string name="no_net_try_again">Não está ligado à internet. Ligue-se e tente novamente.</string>
+    <string name="sem_net_db_filmes">Sem Internet. A mostrar filmes do dia da DB</string>
+    <string name="no_net_no_filme">Não está ligado à internet para ver a informação do filme</string>
+    <string name="usar_plano_dados">Utilizar plano de dados?</string>
+    <string name="nao_novo_dia">Não está ligado à internet para seleccionar outro dia</string>
+    <string name="data_plan">Está ligado à internet através de plano de dados. 
+    						 Tem a certeza que deseja carregar o conteúdo com 
+    						 esta ligação à internet?</string>
+    <string name="mostrar_filmes_db_hoje">Existem filmes na DB para de hoje. A apresentá-los.</string>
+    
+    <!-- Alarmes -->
+    <string name="no_alarmes_set">Não existem alarmes programados</string>
+    <string name="existem_plural">Existem </string>
+    <string name="alarmes_plural"> alarmes programados</string>
+    <string name="existe_singular">Existe 1 alarme programado.</string>
+    <string name="lista_alarmes">Lista de alarmes agendados</string>
+    
+
+    <!-- Países -->
+    <string name="escolha_lingua">Escolher língua</string>
+    <string name="escolha_pais">Escolher canal</string>
+    <string name="portuguese">Português</string>
+    <string name="spanish">Espanhol</string>
+    <string name="default_locale">Default</string>
+    <string name="portugal">Canal Hollywood Portugal</string>
+    <string name="espanha">Canal Hollywood Espanha</string>
+    
+    <!-- Menu Items -->
+    <string name="clear_cache">Apagar cache</string>
+    <string name="settings">Configurações</string>
+    <string name="about">Sobre</string>
+    <string name="alarms">Alarmes</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="destaques">Destaques</string>
+    <string name="fetch_month_movies">Filmes Mês</string>
+    <string name="estatistica">Estatisticas</string>
+
+    <string name="oneMin">1 minuto</string>
+    <string name="tenMin">10 minutos</string>
+    <string name="fifteenMin">15 minutos</string>
+    <string name="twentyMin">20 minutos</string>
+    <string name="thirtyMin">30 minutos</string>
+    <string name="oneHour">1 hora</string>
+    
+    <string name="time_prompt">Escolha um intervalo</string>
+    <string-array name="time_array">
+        <item>@string/oneMin</item>
+        <item>@string/tenMin</item>
+        <item>@string/fifteenMin</item>
+        <item>@string/twentyMin</item>
+        <item>@string/thirtyMin</item>
+        <item>@string/oneHour</item>
+    </string-array>
+    
+    <string-array name="languageOptionValues">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    
+    <string name="actorName">Nome</string>
+    <string name="actorAge">Idade</string>
+    <string name="actorNMovies">Nº de Filmes</string>
+    
+    <string-array name="actorSortOptions">
+        <item>@string/actorName</item>
+        <item>@string/actorAge</item>
+        <item>@string/actorNMovies</item>
+        </string-array>
+
+		<string name="defaultTheme">Default</string>
+    	<string name="xmasTheme">Natal</string>
+    	<string name="stValentineTheme">São Valentim</string>
+    	<string name="emptytheme">Vazio</string>
+    	<string name="whitetheme">Branco</string>
+
+        	<string-array name="themeOptions">
+        	    <item>@string/defaultTheme</item>
+        	    <item>@string/xmasTheme</item>
+        	    <item>@string/stValentineTheme</item>
+        	    <item>@string/emptytheme</item>
+        	    <item>@string/whitetheme</item>
+        	</string-array>
+	             
+        <string-array name="languageOption">
+	     <item>Português</item>
+	     <item>Espanhol</item>
+	     <item>Por defeito</item>
+	     </string-array>
+        <string-array name="channelOption">
+	     <item>Hollywood Portugal</item>
+	     <item>Hollywood Espanha</item>
+	     </string-array>
+	     
+        <string name="dataPlanRegular">Uso regular</string>
+	     <string name="dataPlanNoImages">Não carregar imagens</string>
+	     <string name="dataPlanNoInternet">Não carregar nada em 3G</string>
+	     
+        <string-array name="dataPlan">
+	     <item>@string/dataPlanRegular</item>
+	     <item>@string/dataPlanNoImages</item>
+	     <item>@string/dataPlanNoInternet</item>
+	     </string-array>
+	     
+	<string name="lastDayDB">Última data na DB</string>
+        <string-array name="ordenacao">
+	     <item>Ordem de registo</item>
+	     <item>Contagem</item>
+	     <item>Nome local</item>
+	     <item>Nome original</item>
+	     <item>Ano filme</item>
+	     <item>Genero</item>
+	     <item>@string/lastDayDB</item>
+	     </string-array>
+	     
+	<string name="originalName">Nome original</string>
+	<string name="localName">Nome local</string>
+
+	<string-array name="procura">
+		<item>@string/originalName</item>
+		<item>@string/localName</item>
+	</string-array>
+	
+	    <string-array name="monthNames">
+        <item>Janeiro</item>
+        <item>Fevereiro</item>
+        <item>Março</item>
+        <item>Abril</item>
+        <item>Maio</item>
+        <item>Junho</item>
+        <item>Julho</item>
+        <item>Agosto</item>        
+        <item>Setembro</item>        
+        <item>Outubro</item>        
+        <item>Novembro</item>        
+        <item>Dezembro</item>        
+    </string-array>
+	
+</resources>

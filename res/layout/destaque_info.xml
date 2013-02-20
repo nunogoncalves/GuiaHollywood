@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:id="@+id/infoLayout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/background"
+	    android:orientation="vertical" >
+
+	    <RelativeLayout
+	        android:id="@+id/relativeLayout1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" >
+
+	        <ImageView
+	            android:id="@+id/destaque_info_bar"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:src="@drawable/destaque_bar" />
+
+	        <TextView
+	            android:id="@+id/destaque_info_title"
+	            style="bold"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="19dp"
+	            android:text="Especial Legalmente Loira"
+	            android:textColor="#FFFFFF" />
+	    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <ImageView
+            android:id="@+id/destaque_info_image"
+            android:layout_width="fill_parent"
+            android:layout_height="200px"
+            android:background="#000000"/>
+
+        <ProgressBar
+            android:id="@+id/destaque_info_progress_bar_big_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/destaque_info_descricao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elle Woods será a protagonista dos sábados de 3 e 10 de Dezembro, no Canal Hollywood. Às 20h45, veja a loira mais conhecida de Beverly Hills a acabar com o estigma e provar que nem todas as loiras são fúteis. " />
+
+    <TextView
+        android:id="@+id/destaque_info_mais_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="25dp"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	</LinearLayout>
+</ScrollView>

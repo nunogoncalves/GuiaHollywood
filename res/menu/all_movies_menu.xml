@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/estatistica_menu_search"
+    	  android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"
+          android:icon="@drawable/search"
+          android:title="Procurar"/>
+    <item android:id="@+id/estatistica_menu_confs"
+    	  android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"
+          android:icon="@drawable/sort_icon"
+          android:title="Ordenação"/>
+    <item android:id="@+id/estatistica_menu_premieres"
+    	  android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"
+          android:title="Estreias do mês"/>
+    <item android:id="@+id/estatistica_get_all_info"
+    	  android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"
+          android:icon="@drawable/down_info"
+          android:title="Descarregar \ninfo completa"/>
+</menu>

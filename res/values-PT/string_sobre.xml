@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sobre">Ja nao tens que ir a uma sala de cinema para ver os filmes mais emocionantes.
+        				 O Canal Hollywood leva o melhor cinema ate a tua televisao. Tira partido 
+        				 desta vantagem na sala da tua casa! 
+        				 &lt;br&gt;&lt;br&gt;Todos os generos, os melhores filmes, as novidades mais inovadoras,
+        				      reportagens exclusivas e a melhor seleccao de curtas-metragens,
+        				       24 horas de cinema por dia, 365 dias por ano, 9 filmes diarios e 
+        				       todas as noites um em destaque. Nao percas o melhor cinema no Canal Hollywood.
+        				&lt;br&gt;&lt;br&gt;
+        				Nota do Autor:
+        				&lt;br&gt;
+         				Esta aplicacao foi desenvolvida no ambito da minha aprendizagem da plataforma Android. 
+    					Nao e uma aplicacao oficial por parte do Canal Hollywood. 
+    					Toda a informacao contida nesta aplicacao que diga respeito a programacao do canal, ou informacao
+    					dos filmes (tanto descricao como imagens) pertence ao Canal Hollywood. &lt;br&gt;&lt;br&gt;
+    					    					
+    					Funcionalidades da aplicacao:&lt;br&gt;
+    					&lt;ul&gt;
+						&lt;li&gt;Ver programacao do dia &lt;br&gt;
+						&lt;li&gt;Escolher dia&lt;br&gt;
+						&lt;li&gt;Ver informacao do filme&lt;br&gt;
+						&lt;li&gt;Adicionar alarme para ser lembrado momentos antes do filme comecar&lt;br&gt;    				
+    					&lt;/ul&gt;
+    					Para quaisquer duvidas, sugestoes ou questoes, nao hesite em contactar-me.&lt;br&gt;
+    					
+    					Figueiro dos Vinhos, 2011
+    					
+    </string>
+</resources>

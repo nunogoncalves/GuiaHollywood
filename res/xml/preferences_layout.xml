@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:summary="Selecção de temas"
+        android:title="Tema" >
+
+        <ListPreference
+            android:entries="@array/themeOptions"
+            android:entryValues="@array/themeOptions"
+            android:key="theme"
+            android:summary="Background das listas de filmes"
+            android:title="Background" />
+        
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="seasonPrevails"
+            android:summary="Season prevails over theme choice?"
+            android:title="Season prevails?" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="Canal em Exibição"
+        android:title="Canal em exibição" >
+
+        <ListPreference
+            android:entries="@array/channelOption"
+            android:entryValues="@array/channelOption"
+            android:key="channel"
+            android:summary="Canal seleccionado"
+            android:title="Canal" />
+<!--             android:widgetLayout="@layout/channel_preferences" -->
+    </PreferenceCategory>
+
+<PreferenceCategory
+        android:summary="Linguagem da aplciaçaõ"
+        android:title="Língua" >
+
+        <ListPreference
+            android:entries="@array/languageOption"
+            android:entryValues="@array/languageOptionValues"
+            android:key="languageV1"
+            android:summary="Linguagem da aplicação"
+            android:title="Escolha uma língua" />
+     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="Tempo de alarme"
+        android:title="Defições de alarme" >
+
+        <ListPreference
+            android:entries="@array/time_array"
+            android:entryValues="@array/time_array"
+            android:key="alarm_time"
+            android:summary="Tempo entre alerta e filme"
+            android:title="Escolha um intervalo" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="Tempo de alarme"
+        android:title="Defições de alarme" >
+
+        <ListPreference
+            android:entries="@array/dataPlan"
+            android:entryValues="@array/dataPlan"
+            android:key="data_plan_options"
+            android:summary="o que fazer quando ligado com 3G"
+            android:title="Comportamento em 3G"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:summary="Ordenação"
+        android:title="Definições de Ordenação" >
+
+        <ListPreference
+            android:entries="@array/ordenacao"
+            android:entryValues="@array/ordenacao"
+            android:key="ordenacao"
+            android:summary="Ordenação dos filmes"
+            android:title="Ordenação dos filmes" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="Procura"
+        android:title="Definições de procura" >
+
+        <ListPreference
+            android:entries="@array/procura"
+            android:entryValues="@array/procura"
+            android:key="procura"
+            android:summary="Procurar por:"
+            android:title="Definições de procura" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:summary="Procura"
+        android:title="Definições de procura" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="ascDesc"
+            android:summary="(A->Z)/(Z->A))"
+            android:title="Ascendent?" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    </PreferenceScreen>

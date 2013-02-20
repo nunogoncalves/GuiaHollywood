@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sobre_hollywood">Ja nao tens que ir a uma sala de cinema para ver os filmes mais emocionantes.
+        				 O Canal Hollywood leva o melhor cinema ate a tua televisao. Tira partido 
+        				 desta vantagem na sala da tua casa! 
+        				 &lt;br&gt;&lt;br&gt;Todos os generos, os melhores filmes, as novidades mais inovadoras,
+        				      reportagens exclusivas e a melhor seleccao de curtas-metragens,
+        				       24 horas de cinema por dia, 365 dias por ano, 9 filmes diarios e 
+        				       todas as noites um em destaque. Nao percas o melhor cinema no Canal Hollywood.
+    </string>
+    <string name="sobre_autor">   				
+        				Nota do Autor:
+        				&lt;br&gt;
+    					Esta aplicacao nao e uma aplicacao oficial dodo Canal Hollywood. 
+    					Toda a informacao aqui contida que diga respeito a programacao do canal, ou informacao
+    					dos filmes (tanto descricao como imagens) pertence ao Canal Hollywood. &lt;br&gt;&lt;br&gt;
+    					    					
+    					Funcionalidades da aplicacao:&lt;br&gt;
+    					&lt;ul&gt;
+						&lt;li&gt;Ver programacao do dia &lt;br&gt;
+						&lt;li&gt;Seleccionar o dia&lt;br&gt;
+						&lt;li&gt;Ver informacao completa do filme&lt;br&gt;
+						&lt;li&gt;Adicionar alarme para ser lembrado momentos antes do filme comecar&lt;br&gt;    				
+						&lt;li&gt;A programacao do mes pode ser descarregada de uma vez, de modo a ser mais rapido nos outros dias aceder a essa informacao e sem depender de ligacao a internet.&lt;br&gt;    				
+						&lt;li&gt;Ver os destaques do mes.&lt;br&gt;    				
+						&lt;li&gt;Ver programacao do canal hollywood Portugal, e Espanha.&lt;br&gt;    				
+						&lt;li&gt;Configurar o comportamento da aplicacao quando ligado em 3G.&lt;br&gt;    				
+						&lt;li&gt;Configurar o intervalo entre o alerta e o inicio do filme.&lt;br&gt;    				
+						&lt;li&gt;Ver estatisticas dos filmes, tais como a contagem, e estreias do mes seleccionado.&lt;br&gt;    				
+    					&lt;/ul&gt;
+    					Para quaisquer duvidas, sugestoes ou questoes, nao hesite em contactar-me.&lt;br&gt;
+    					
+    					2011
+    </string>
+    <string name="email_me"><u>Envie-me um email</u></string>
+</resources>

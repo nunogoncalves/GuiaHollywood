@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App settings -->
+    <string name="app_name">Hollywood Guide</string>
+    <string name="email">goncalves.cm.nuno@gmail.com</string>
+    <string name="contact_me">Contact me</string>
+    <string name="actionbar_activity_not_found">Failed to open intent...</string>
+    <string name="empty"></string>
+
+    <!-- Nomes actividades -->
+    <string name="configurations">Configurations</string>
+
+    <!-- Esperas -->
+    <string name="hold">Please hold</string>
+    <string name="loading">Loading list of movies...</string>
+
+    <!-- Escolhas -->
+    <string name="dateSliderTitle">Selected Date</string>
+    <string name="sim">Yes</string>
+    <string name="nao">No</string>
+    <string name="escolha_opcao">Choose an Option</string>
+    <string name="escolher_tema">Choose theme</string>
+    <string name="natal">Christmas</string>
+    <string name="amor">Love</string>
+    <string name="vazio">Empty</string>
+    <string name="epoca_maior_check_box">Season overcomes choice</string>
+    <string name="guardar_alteracoes">Save changes</string>
+    <string name="select">Select</string>
+    <string name="cancelar">Cancel</string>
+
+    <!-- Infos/Notificacoes -->
+    <string name="realizador">Director: </string>
+    <string name="duracao">Duration: </string>
+    <string name="das">From </string>
+    <string name="as"> to </string>
+    <string name="dateFormat"> MMMM dd yyyy</string>
+    <string name="cache_apagada">Cache cleared</string>
+    <string name="hoje">Today</string>
+    <string name="epoca_superior_escolha">Season theme overcomes my choice?</string>
+
+    <!-- Sair -->
+    <string name="reboot_app_see_efects">You need to reboot the app to see all language changes</string>
+    <string name="certeza_sair">Are you sure you want to exit?</string>
+    <string name="sair">Exit</string>
+
+    <!-- Ligação -->
+    <string name="no_net_try_again">You are not connected to Internet. Connect and try again</string>
+    <string name="mostrar_filmes_db_hoje">The DB contains movies for today. Displaying them</string>
+    <string name="usar_plano_dados">Use data plan?</string>
+    <string name="no_connection">No connection</string>
+    <string name="try_again">Try again</string>
+    <string name="data_plan">You are connected through data plan. 
+    						 Are you sure you want to load the content 
+    						 with this internet connection?</string>
+    <string name="sem_net_db_filmes">No Internet. Showing DB movies</string>
+    <string name="nao_novo_dia">You cannot select another day. You are not connected to Internet</string>
+    <string name="site_date_format">yyyy-MM-dd</string>
+    <string name="no_net_no_filme">You are not connected to Internet to see the movie info</string>
+
+    <!-- Alarmes -->
+    <string name="no_alarmes_set">There are no alarms set</string>
+    <string name="existem_plural">There are </string>
+    <string name="alarmes_plural"> alarms set</string>
+    <string name="existe_singular">There is 1 alarm set.</string>
+    <string name="lista_alarmes">Alarm set list</string>
+
+    <!-- Países -->
+    <string name="escolha_lingua">Select language</string>
+    <string name="escolha_pais">Select channel</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="spanish">Spanish</string>
+    <string name="defaultLang">Default</string>
+    <string name="defaultLangValue">0</string>
+    <string name="portugal">Canal Hollywood Portugal</string>
+    <string name="espanha">Canal Hollywood España</string>
+    <string name="default_locale">Default</string>
+
+    <!-- Menu Items -->
+    <string name="clear_cache">Clear cache</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="alarms">Alarms</string>
+    <string name="actualizar">Refresh</string>
+    <string name="destaques">Highlights</string>
+    <string name="alarm_minutes_setting">Alarm time before setting</string>
+    <string name="fetch_month_movies">Month Movies</string>
+    <string name="estatistica">Statistics</string>
+    <string name="oneMin">1 minute</string>
+    <string name="tenMin">10 minutes</string>
+    <string name="fifteenMin">15 minutes</string>
+    <string name="twentyMin">20 minutes</string>
+    <string name="thirtyMin">30 minutes</string>
+    <string name="oneHour">1 hour</string>
+    <string name="time_prompt">Choose time</string>
+
+    <string-array name="time_array">
+        <item>@string/oneMin</item>
+        <item>@string/tenMin</item>
+        <item>@string/fifteenMin</item>
+        <item>@string/twentyMin</item>
+        <item>@string/thirtyMin</item>
+        <item>@string/oneHour</item>
+    </string-array>
+    
+    <string name="actorName">Nome</string>
+    <string name="actorAge">Idade</string>
+    <string name="actorNMovies">Nº de Filmes</string>
+
+    <string name="defaultTheme">Default</string>
+    <string name="xmasTheme">Christmas</string>
+    <string name="stValentineTheme">St Valentine</string>
+    <string name="emptytheme">Empty</string>
+    <string name="whitetheme">White</string>
+
+    <string-array name="themeOptions">
+        <item>@string/defaultTheme</item>
+        <item>@string/xmasTheme</item>
+        <item>@string/stValentineTheme</item>
+        <item>@string/emptytheme</item>
+        <item>@string/whitetheme</item>
+    </string-array>
+    <string-array name="languageOption">
+        <item>@string/portuguese</item>
+        <item>@string/spanish</item>
+        <item>@string/defaultLang</item>
+    </string-array>
+    
+   	<string-array name="languageOptionValues">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+
+    <string name="canalPortugal">Hollywood Portugal</string>
+    <string name="canalEspanha">Hollywood Espanha</string>
+
+    <string-array name="channelOption">
+        <item>@string/canalPortugal</item>
+        <item>@string/canalEspanha</item>
+    </string-array>
+
+    <string name="dataPlanRegular">Regular Use</string>
+    <string name="dataPlanNoImages">Don\'t load images</string>
+    <string name="dataPlanNoInternet">Don\'t load anything</string>
+
+    <string-array name="dataPlan">
+        <item>@string/dataPlanRegular</item>
+        <item>@string/dataPlanNoImages</item>
+        <item>@string/dataPlanNoInternet</item>
+    </string-array>
+
+    <string name="lastDayDB">Last day on DB</string>
+
+    <string-array name="ordenacao">
+        <item>Register order</item>
+        <item>Count</item>
+        <item>Local Name</item>
+        <item>Original Name</item>
+        <item>Movie year</item>
+        <item>Genre</item>
+        <item>@string/lastDayDB</item>
+    </string-array>
+
+    <string name="originalName">Original name</string>
+    <string name="localName">Local name</string>
+
+    <string-array name="procura">
+        <item>@string/originalName</item>
+        <item>@string/localName</item>
+        
+    </string-array><string-array name="monthNames">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+    <string name="crash_toast_text">Ooooops ! I crashed, but a report has been sent to my developer to help fix the issue !</string>
+    <string name="crash_notif_ticker_text">Unexpected error, please send a report...</string>
+    <string name="crash_notif_title">CrashTest has crashed...</string>
+    <string name="crash_notif_text">Please click here to help fix the issue.</string>
+    <string name="crash_dialog_title">CrashTest has crashed</string>
+    <string name="crash_dialog_text">An unexpected error occurred forcing the
+    application to stop. Please help us fix this by sending us error data,
+    all you have to do is click \'OK\'.</string>
+    <string name="crash_dialog_comment_prompt">You might add your comments about the problem below:</string>
+    <string name="crash_dialog_ok_toast">Thank you !</string>
+
+</resources>

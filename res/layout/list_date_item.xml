@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/date_layout" >
+
+    <TextView
+        android:id="@+id/list_data_item_date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/alarmBell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/horaTextView"
+        android:paddingRight="5px" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/list_item_favorite_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/alarmBell"
+        android:paddingRight="5px" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/list_item_viewed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/list_item_favorite_icon"
+        android:paddingRight="5px" >
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/list_item_watch_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="right"
+        android:layout_toLeftOf="@+id/list_item_viewed"
+        android:paddingRight="5px" >
+
+    </ImageView>
+    
+</LinearLayout>
